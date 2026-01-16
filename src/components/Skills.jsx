@@ -115,7 +115,7 @@ function Skills() {
         <a
           className="inline-flex items-center font-medium leading-tight text-slate-200 group relative"
           aria-label="View GitHub Profile"
-          href="https://github.com/yourusername"
+          href="https://github.com/r1usman"
           target="_blank"
           rel="noreferrer noopener"
         >

@@ -48,16 +48,28 @@ function About() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
           viewport={{ once: true }}
-          className="flex items-center gap-2 pt-4"
+          className="flex flex-col gap-3 pt-4"
         >
-          <span className="text-2xl animate-float">📧</span>
-          <a
-            href="mailto:ru0300usman@gmail.com"
-            className="font-medium text-slate-200 hover:text-teal-300 transition-colors duration-300 relative group"
-          >
-            ru0300usman@gmail.com
-            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-teal-300 group-hover:w-full transition-all duration-300"></span>
-          </a>
+          <div className="flex items-center gap-2">
+            <span className="text-2xl animate-float">📧</span>
+            <a
+              href="mailto:ru0300usman@gmail.com"
+              className="font-medium text-slate-200 hover:text-teal-300 transition-colors duration-300 relative group"
+            >
+              ru0300usman@gmail.com
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-teal-300 group-hover:w-full transition-all duration-300"></span>
+            </a>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-2xl animate-float">📱</span>
+            <a
+              href="tel:+923165697357"
+              className="font-medium text-slate-200 hover:text-teal-300 transition-colors duration-300 relative group"
+            >
+              +92 316 5697357
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-teal-300 group-hover:w-full transition-all duration-300"></span>
+            </a>
+          </div>
         </motion.div>
       </div>
     </section>

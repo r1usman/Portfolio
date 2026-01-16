@@ -1,30 +1,23 @@
-import { FaGithub, FaLinkedin, FaCodepen, FaInstagram } from "react-icons/fa";
-import { SiGoodreads } from "react-icons/si";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const navItems = [
   { id: "about", label: "About" },
   { id: "skills", label: "Skills" },
   { id: "projects", label: "Projects" },
-  { id: "writing", label: "Writing" },
 ];
 
 const socialLinks = [
-  { icon: FaGithub, href: "https://github.com/yourusername", label: "GitHub" },
+  { icon: FaGithub, href: "https://github.com/r1usman", label: "GitHub" },
   {
     icon: FaLinkedin,
-    href: "https://www.linkedin.com/in/yourusername/",
+    href: "https://linkedin.com/in/r1usman",
     label: "LinkedIn",
   },
   {
-    icon: FaCodepen,
-    href: "https://codepen.io/yourusername",
-    label: "CodePen",
-  },
-  {
-    icon: FaInstagram,
-    href: "https://instagram.com/yourusername",
-    label: "Instagram",
+    icon: FaTwitter,
+    href: "https://twitter.com/r1usman",
+    label: "Twitter",
   },
 ];
 
