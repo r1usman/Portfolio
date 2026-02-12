@@ -22,7 +22,7 @@ const projects = [
   },
   {
     title: "The Wild Oasis Customer Website",
-    url: "",
+    url: "https://the-wild-oasis-usman.vercel.app",
       liveUrl: "https://drive.google.com/file/d/1F6tZVn0CQYnnbGCIl7wLuVlo42_7069F/view?usp=drive_link",
     github:"https://github.com/r1usman/the-wild-oasis-website",
     featured: false,
@@ -160,12 +160,14 @@ export const Projects = () => {
                   <h3 className="text-2xl font-bold text-white group-hover:text-primary transition-colors">
                     {project.title}
                   </h3>
-                  <ArrowUpRight
-                    className="w-5 h-5 
-                  text-muted-foreground group-hover:text-primary
-                   group-hover:translate-x-1 
-                   group-hover:-translate-y-1 transition-all"
-                  />
+                  {project.url && (
+                    <ArrowUpRight
+                      className="w-5 h-5 
+                    text-muted-foreground group-hover:text-primary
+                     group-hover:translate-x-1 
+                     group-hover:-translate-y-1 transition-all"
+                    />
+                  )}
                 </a>
                 <p className="text-gray-300 text-base font-medium leading-relaxed">
                   {project.description}
